@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#text{
+    width: 50vw;
+    height: 50vh;
+}
