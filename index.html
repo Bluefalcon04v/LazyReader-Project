@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text to Speech Converter</title>
     <link rel="styleSheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <textarea id="text"></textarea>
-    <label for="speed">Speed</label>
-    <input type="number" name="speed" id="speed" min=".5" max="3" step=".5" value="1">  <!-- here play with the numbers and make it faster/slower accordingly   -->
-    <button id="play-button">Play</button>
-    <button id="pause-button">Pause</button>
-    <button id="stop-button">Stop</button>
-    
+    <div>
+        <textarea class="textArea" id="text"></textarea>
+        <label class="buttonsStyle" for="speed">Speed
+            <input class="input"  type="number" name="speed" id="speed" min=".5" max="3" step=".5" value="1"> <!-- here play with the numbers and make it faster/slower accordingly   -->
+        </label>  
+        <button class="buttonsStyle"  id="play-button">Play</button>
+        <button class="buttonsStyle"  id="pause-button">Pause</button>
+        <button class="buttonsStyle"  id="stop-button">Stop</button>
+    </div>
 </body>
 <script src="script.js" defer></script>
 </html>
