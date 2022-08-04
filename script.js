@@ -30,7 +30,7 @@ function playText(text){
     if (speechSynthesis.speaking) return
     utterance.text = text
     utterance.rate = speedInput.value || 1
-    textInput.disabled = true 
+    textInput.disabled = true // set it false if you want to edit text while it's running
     speechSynthesis.speak(utterance)
 }
 

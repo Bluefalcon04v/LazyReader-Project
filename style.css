@@ -15,13 +15,14 @@ body{
 .textArea{
     display: flex;
     margin: 0 10px;
-    background-color: rgb(255, 222, 254);
+    background-color:rgb(224 188 224 / 52%);
 }
-
+h1{
+    color: rgb(226, 223, 223);
+}
 
 /* buttons styling */
 .buttonsStyle{
-    
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -42,22 +43,44 @@ body{
 
 .buttonsStyle:hover{
     background-color: rgb(72, 229, 229);
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-size: 18px;
     border-color: white;
     cursor: pointer;
     width: 105px;
     height: 25px;
 }
 
-
 /*input text styling  */
 #text{
-    font-size: 19px;
+    font-size: 22px;
     margin-top: 15px;
     padding: 10px;
     border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 4px 23px rgb(244, 189, 249);
     width: 50vw;
     height: 60vh;
 }
 
 
 /* media Queries */
+@media(max-width:923px) {
+    #text{
+        background-color: rgb(224 188 224 / 52%);
+        width: 90%;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:390px){
+    #text{
+        width: 90%;
+    }
+    .buttonsStyle{
+        display: flex;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
