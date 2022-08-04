@@ -7,7 +7,8 @@ ___
 
 
 ## Task
-I have cloned Pizza Hut Website as my __First Project__ for frontend development.
+I always wanted a text reader and on the other hand available readers on market have some kind of flaws in it like words limit. 
+And they aren't opensource so I can't customize it like my way. So that's why i decide to make a text reader for myself. 
 ___
 
 ## Summary 
