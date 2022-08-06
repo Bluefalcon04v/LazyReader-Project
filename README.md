@@ -12,7 +12,7 @@ And they aren't opensource so I can't customize it like my way. So that's why i 
 ___
 
 ## Summary 
-In this Repository we have HTML, CSS and JS files and Images a background image.
+In this Repository we have HTML, CSS and JS files and a background image.
 >  
 ***
 
