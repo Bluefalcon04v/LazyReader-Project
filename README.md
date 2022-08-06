@@ -7,37 +7,13 @@ ___
 
 
 ## Task
-I always wanted a text reader and on the other hand available readers on market have some kind of flaws in it like words limit. 
+I always wanted a text reader and all other available TEXT READERS on market have some kind of flaws in it like words limit. 
 And they aren't opensource so I can't customize it like my way. So that's why i decide to make a text reader for myself. 
 ___
 
 ## Summary 
-In this Repository we have some HTML, CSS and JS files and Images folders that have been used to make the project.
-
-**html Files**
-> All html files have the details of particular sections
-> >
-> > like Index.html have details about all ongoing Deals to offer
-> >
-> > Pizza.html have details about Pizza Section
-> >
-> > Sides.html have details about Side items they have to offer
-> > 
-> > desserts.html have details about Desserts they have in Pizza hut
-> > 
-> > And the last Section is Drinks.html
-
-**CSS Files**
-> It have two files "Style.CSS" and "Utility.CSS"
-> >
-> > **Style.CSS**
-> > it consist's of all styling like Colors, Padding, Sizes etc
-> >  
-> > **Utility.CSS**
-> > it have everything related like Hover Effects, Resposive designing, Media Query, Before and After Effects etc
-
-**JS file**
-> It have basic of JS for Drop down Selector in Pizza Section and just bunch of stuffs for basket logo for Resposive designing. 
+In this Repository we have HTML, CSS and JS files and Images a background image.
+>  
 ***
 
 ### Run locally
