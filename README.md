@@ -33,7 +33,7 @@ You are now in the dev environment and you can play around
 ### Tech Used
 - HTML
 - CSS
-- Flex-Box
 - Media Query
 - JavaScript
+
 ***
