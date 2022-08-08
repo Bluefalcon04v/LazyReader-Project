@@ -7,7 +7,7 @@ ___
 
 
 ## Task
-I always wanted a text reader and all other available TEXT READERS on market have some kind of flaws in it like words limit. 
+I needed a text reader and all other available TEXT READERS on market have some kind of flaws in it like words limit. 
 And they aren't opensource so I can't customize it like my way. So that's why i decide to make a text reader for myself. 
 ___
 
