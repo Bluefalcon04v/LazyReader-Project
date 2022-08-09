@@ -12,13 +12,13 @@ And they aren't opensource so I can't customize it like my way. So that's why i 
 ___
 
 ## Summary 
-In this Repository we have HTML, CSS and JS files and a background image.
+In this Repository we have HTML, CSS and JS files and a background image + logo image.
 >  
 ***
 
 ### Run locally
 Steps to run in your Machine
-> Run this Command `https://github.com/Bluefalcon04v/Project_Pizza-Hut-Clone.git`
+> Run this Command ``
 > 
 > Run `npm install` 
 > 
