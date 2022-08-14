@@ -7,20 +7,35 @@ ___
 
 
 ## Task
-I needed a text reader and all other available TEXT READERS on market have some kind of flaws in it like words limit. 
-And they aren't opensource so I can't customize it like my way. So that's why i decide to make a text reader for myself. 
+- I needed a text reader cause i'm lazy and i don't want to read BOOKS or Pdf by myself. (now you know why i named it as *LazyREADER*).
+- All available text readers have *words limits* on it and they sell the Premium Subcription to remove that word limit. 
+- even after getting Premium Subcription they don't let us customize the Reader according to us. 
+So that's why i decided to make a READING website by myself. And here we are!! 😁
 ___
 
 ## Summary 
+In this Repository we have 
+- HTML file
+- CSS file
+- JavaScript file
+- Background image 
+- Logo image.
+
 ### Version 1.0 (*Current Version*)
-In this Repository we have HTML, CSS and JS files and a background image + logo image.
->  
+- Box to add Text 
+- A Play button 
+- A Pause Button
+- A Stop Button
+- A Speed controller form (0.5x to 3x)
+
 ### Version 1.1
-to do 
-- add actors voices 
-- add translastor in hindi to english and vice versa 
-- add instruction menu
-- add a visual somrthing like siri or add a gif
+*TO Update*
+- Add actors voices 
+- Add function to change Back-ground images 
+- Add translastor in hindi to english and vice versa 
+- Add instruction menu
+- Add a visual somrthing like siri or add a gif
+- Add a cleaning button
 ***
 
 ### Run locally
@@ -42,5 +57,6 @@ You are now in the dev environment and you can play around
 - CSS
 - Media Query
 - JavaScript
+- Speech Synthesis 
 
 ***

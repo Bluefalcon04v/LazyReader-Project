@@ -20,6 +20,12 @@ body{
 h1{
     color: rgb(226, 223, 223);
 }
+footer{
+    color: navajowhite;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
 
 /* buttons styling */
 .buttonsStyle{
@@ -70,6 +76,12 @@ h1{
         background-color: rgb(224 188 224 / 52%);
         width: 90%;
         margin-right: 10px;
+    }
+}
+@media(max-width:476px){
+    
+    footer{
+        display: none;
     }
 }
 
