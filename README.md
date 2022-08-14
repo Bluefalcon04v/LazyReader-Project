@@ -12,13 +12,20 @@ And they aren't opensource so I can't customize it like my way. So that's why i 
 ___
 
 ## Summary 
+### Version 1.0
 In this Repository we have HTML, CSS and JS files and a background image + logo image.
 >  
+### Version 1.1
+to do 
+- add actors voices 
+- add translastor in hindi to english and vice versa 
+- add instruction menu
+- add a visual somrthing like siri or add a gif
 ***
 
 ### Run locally
 Steps to run in your Machine
-> Run this Command ``
+> Run this Command `https://github.com/Bluefalcon04v/LazyReader-Project.git`
 > 
 > Run `npm install` 
 > 
