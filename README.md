@@ -12,7 +12,7 @@ And they aren't opensource so I can't customize it like my way. So that's why i 
 ___
 
 ## Summary 
-### Version 1.0
+### Version 1.0 (*Current Version*)
 In this Repository we have HTML, CSS and JS files and a background image + logo image.
 >  
 ### Version 1.1
