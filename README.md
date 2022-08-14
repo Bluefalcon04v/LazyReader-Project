@@ -7,8 +7,8 @@ ___
 
 
 ## Task
-- I needed a text reader cause i'm lazy and i don't want to read BOOKS or Pdf by myself. (now you know why i named it as *LazyREADER*).
-- All available text readers have *words limits* on it and they sell the Premium Subcription to remove that word limit. 
+- I needed a text reader cause i'm lazy and i love to hear AUDIOBOOKS or Pdf (now you know why i named it as *LazyREADER*).
+- All available text readers have *words limits* on it and they sell the Premium Subcription to remove that word limits. 
 - even after getting Premium Subcription they don't let us customize the Reader according to us. 
 So that's why i decided to make a READING website by myself. And here we are!! 😁
 ___
@@ -30,12 +30,12 @@ In this Repository we have
 
 ### Version 1.1
 *TO Update*
-- Add actors voices 
 - Add function to change Back-ground images 
-- Add translastor in hindi to english and vice versa 
 - Add instruction menu
-- Add a visual somrthing like siri or add a gif
-- Add a cleaning button
+- Add a Clear All button
+- Add Multiple voices 
+- Add translastor in hindi to english and vice versa 
+- Add a Visual something like siri or add a gif
 ***
 
 ### Run locally
