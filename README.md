@@ -18,15 +18,15 @@ In this Repository we have
 - HTML file
 - CSS file
 - JavaScript file
-- Background image 
-- Logo image.
+- Background Image 
+- Logo Image.
 
 ### Version 1.0 (*Current Version*)
 - Box to add Text 
 - A Play button 
 - A Pause Button
 - A Stop Button
-- A Speed controller form (0.5x to 3x)
+- A Speed Controller (0.5x to 3x)
 
 ### Version 1.1
 *TO Update*
