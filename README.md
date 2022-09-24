@@ -18,24 +18,25 @@ In this Repository we have
 - HTML file
 - CSS file
 - JavaScript file
-- Background Image 
-- Logo Image.
+- Background image 
+- Logo image.
 
 ### Version 1.0 (*Current Version*)
 - Box to add Text 
 - A Play button 
 - A Pause Button
 - A Stop Button
-- A Speed Controller (0.5x to 3x)
+- A Speed controller form (0.5x to 3x)
 
 ### Version 1.1
 *TO Update*
 - Add function to change Back-ground images 
 - Add instruction menu
-- Add a Clear All button
 - Add Multiple voices 
 - Add translastor in hindi to english and vice versa 
 - Add a Visual something like siri or add a gif
+- Change the input Box border respect to play, pause, clear button 
+- Change the Stop Button to Clear All Button
 ***
 
 ### Run locally
