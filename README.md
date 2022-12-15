@@ -7,10 +7,11 @@ ___
 
 
 ## Task
-- I needed a text reader cause i'm lazy and i love to hear AUDIOBOOKS or Pdf (now you know why i named it as *LazyREADER*).
-- All available text readers have *words limits* on it and they sell the Premium Subcription to remove that word limits. 
-- even after getting Premium Subcription they don't let us customize the Reader according to us. 
-So that's why i decided to make a READING website by myself. And here we are!! 😁
+- I needed a text reader cause i'm lazy and i love to hear **AUDIOBOOKS** (now you know why i named it as *LazyREADER*).
+- All available text readers have **words limits** on it and they sell the Premium Subcription to remove word limits. 
+- Even after getting Premium Subcription they don't let you to do **customize** the App according to your liking. 
+So that's why i decided to make a **READING website** by myself. And here i'm are!! 😁
+- It's open so that you guys can also **folk** it and use it as you want ❤❤.
 ___
 
 ## Summary 
@@ -18,8 +19,7 @@ In this Repository we have
 - HTML file
 - CSS file
 - JavaScript file
-- Background image 
-- Logo image.
+- image folder
 
 ### Version 1.0 (*Current Version*)
 - Box to add Text 
@@ -31,7 +31,7 @@ In this Repository we have
 ### Version 1.1
 *TO Update*
 - Add function to change Back-ground images 
-- Add instruction menu
+- Add instruction menu "How to Use"
 - Add Multiple voices 
 - Add translastor in hindi to english and vice versa 
 - Add a Visual something like siri or add a gif

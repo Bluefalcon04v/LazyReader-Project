@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/bgimage.jpg);
+    background-image: url(/images/bgimage.jpg);
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;
