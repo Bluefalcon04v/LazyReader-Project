@@ -7,10 +7,10 @@ ___
 
 
 ## Task
-- I needed a text reader cause i'm lazy and i love to hear **AUDIOBOOKS** (now you know why i named it as *LazyREADER*).
-- All available text readers have **words limits** on it and they sell the Premium Subcription to remove word limits. 
-- Even after getting Premium Subcription they don't let you to do **customize** the App according to your liking. 
-So that's why i decided to make a **READING website** by myself. And here i'm are!!😁
+- I needed a **text reader** because i'm lazy and i love to hear **AUDIOBOOKS** (now you know why i named it as **LazyREADER** 😉)
+- All available text readers have **words limits** on it and they sell the Premium Subcription to remove words limit. 
+- Even after getting Premium Subcription they don't let you to do **customize** the App according to yourself. 
+So that's why i decided to make a **Text Reading Website** by myself. And here i'm!! 😁
 - It's open so that you guys can also **folk** it and use it as you want ❤❤.
 ___
 
