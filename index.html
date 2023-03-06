@@ -14,12 +14,15 @@
 <body>
     <div>
         <h1>Text to Speech Converter</h1>
-        <textarea class="textArea" id="text"></textarea>
+        <!-- <textarea class="textArea" id="text"></textarea> -->
+        
+        <textarea id="text" class="input textArea" placeholder="Type your text"></textarea>
+
         <button class="buttonsStyle"  id="play-button">Play</button>
         <button class="buttonsStyle"  id="pause-button">Pause</button>
         <button class="buttonsStyle"  id="stop-button">Stop</button>
         <label class="buttonsStyle" for="speed">Speed
-            <input class="input"  type="number" name="speed" id="speed" min=".5" max="3" step=".5" value="1"> <!-- here play with the numbers and make it faster/slower accordingly   -->
+            <input class="inputspeed"  type="number" name="speed" id="speed" min=".5" max="3" step=".5" value="1"> <!-- here play with the numbers and make it faster/slower accordingly   -->
         </label>  
     </div>
     <footer>Version 1.0</footer>
