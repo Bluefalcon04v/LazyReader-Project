@@ -1,161 +1,124 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    background-color: #212121;
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #212121;
 }
 
-.textArea{
-    display: flex;
-    margin: 0 10px;
+.textArea {
+  display: flex;
+  margin: 2rem 10rem;
 }
 
 .input {
-    background-color: #383838;
-    border: 1ex solid none;
-    border-top-width: 1.7em;
-    margin: 0;
-    padding: 0;
-    color: #383838;
-    word-wrap: break-word;
-    height: 30vh;
-    font-size: 17px;
-    transition: all 1s;
-    max-width: 80vw;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgba(230, 232, 232, 0.775);
-   }
-   
-   .input:hover {
-    border-top-width: 0.2em;
-    background-color: #dadbdadb;
-    color: #262626;
-   }
-   
-   .input:focus {
-    border-top-width: 0.2em;
-    background-color: #dadbdadb;
-    color: #262626;
-
-   }
-
-
-h1{
-    color: rgb(226, 223, 223);
-}
-footer{
-    color: navajowhite;
-    position: absolute;
-    right: 20px;
-    top: 5px;
+  background-color: #383838;
+  border: 1ex solid none;
+  margin: 1rem 0px 1px 3rem;
+  padding: 0;
+  color: #383838;
+  word-wrap: break-word;
+  height: 30vh;
+  font-size: 17px;
+  transition: all 1s;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(230, 232, 232, 0.775);
 }
 
-/* buttons styling */
-/* .buttonsStyle{
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 22px;
-    width: 100px;
-    margin: 10px;
-    padding: 2px;
-    
-    background-color: rgb(80, 179, 225);
-    border: 2px solid black;
-    border-radius: 8px;
-} */
-
-.inputspeed{
-    border-radius: 5px;
-    height: 17px;
-    width: 40px;
+.input:hover {
+  border-top-width: 0.2em;
+  background-color: #dadbdadb;
+  color: #262626;
 }
-/* 
-.buttonsStyle:hover{
-    background-color: rgb(72, 229, 229);
-    box-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-size: 18px;
-    border-color: white;
-    cursor: pointer;
-    width: 105px;
-    height: 25px;
-} */
+
+.input:focus {
+  border-top-width: 0.2em;
+  background-color: #dadbdadb;
+  color: #262626;
+}
+
+h1 {
+  color: rgb(205, 202, 202);
+  margin: 1.5rem;
+}
+
+footer {
+  color: navajowhite;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+/*============================ buttons styling ===========================*/
+.inputspeed {
+  border-radius: 5px;
+  height: 1.4rem;
+  width: 3rem;
+}
 
 .buttonsStyle {
-    --hover-shadows: 16px 16px 33px #121212,
-                      -16px -16px 33px #303030;
-    --accent: fuchsia;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    border: none;
-    border-radius: 1.1em;
-    background-color: #212121;
-    color: white;
-    padding: 1em 2em;
-    margin: 10px;
-    padding: 2px;
-    transition: box-shadow ease-in-out 0.3s,
-                background-color ease-in-out 0.1s,
-                letter-spacing ease-in-out 0.1s,
-                transform ease-in-out 0.1s;
-    box-shadow: 13px 13px 10px #1c1c1c,
-                -13px -13px 10px #262626;
-   }
-   
-   .buttonsStyle:hover {
-    box-shadow: var(--hover-shadows);
-   }
-   
-   .buttonsStyle:active {
-    box-shadow: var(--hover-shadows),
-                 var(--accent) 0px 0px 30px 5px;
-    background-color: var(--accent);
-    transform: scale(0.95);
-   }
-   
-
-/*input text styling  */
-#text{
-    font-size: 22px;
-    margin-top: 15px;
-    padding: 10px;
-    border: 4px solid white;
-    border-radius: 10px;
-    box-shadow: 5px 4px 23px rgb(172, 170, 173);
-    width: 50vw;
-    height: 60vh;
+  --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
+  --accent: #6b7280 ;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  border: none;
+  border-radius: 1.1em;
+  background-color: #212121;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  padding: 1rem;
+  transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s,
+    letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+  box-shadow: 13px 13px 10px #1c1c1c, -13px -13px 10px #262626;
 }
 
-
-/* media Queries */
-@media(max-width:923px) {
-    #text{
-        background-color: rgb(224 188 224 / 52%);
-        width: 90%;
-        margin-right: 10px;
-    }
-}
-@media(max-width:476px){
-    
-    footer{
-        display: none;
-    }
+.buttonsStyle:hover {
+  box-shadow: var(--hover-shadows);
+  cursor: pointer;
 }
 
-@media(max-width:390px){
-    #text{
-        width: 90%;
-    }
-    .buttonsStyle{
-        display: flex;
-    }
-    h1{
-        font-size: 2rem;
-    }
+.buttonsStyle:active {
+  box-shadow: var(--hover-shadows), var(--accent) 0px 0px 20px 3px;
+  background-color: var(--accent);
+  transform: scale(0.95);
+}
+
+/*============================ input text styling ===========================*/
+#text {
+  font-size: 22px;
+  padding: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.437);
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px rgb(116 115 117 / 77%);
+  width: 50vw;
+  height: 60vh;
+}
+
+/*============================ media Queries ================================*/
+@media (max-width: 923px) {
+  #text {
+    width: 86%;
+    margin: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 476px) {
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .buttonsStyle {
+    display: inline-block;
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
 }
