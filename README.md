@@ -21,22 +21,25 @@ In this Repository we have
 - JavaScript file
 - image folder
 
-### Version 1.0 (*Current Version*)
+### Version 1.0 (*Previous Version*)
 - Box to add Text 
 - A Play button 
 - A Pause Button
 - A Stop Button
 - A Speed controller form (0.5x to 3x)
 
-### Version 1.1
+### Version 1.1 (*Current Version*)
+- Better looking UI
+- Add instruction menu "How to Use"
+- Change the input Box border color respect to play, pause, clear button 
+- Add new button Clear All
+
+### Version 1.2
 *TO Update*
 - Add function to change Back-ground images 
-- Add instruction menu "How to Use"
 - Add Multiple voices 
 - Add translastor in hindi to english and vice versa 
 - Add a Visual something like siri or add a gif
-- Change the input Box border respect to play, pause, clear button 
-- Change the Stop Button to Clear All Button
 ***
 
 ### Run locally

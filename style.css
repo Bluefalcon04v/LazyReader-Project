@@ -6,7 +6,7 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: #212121;
+  background-image: url("/images/background image.png");
 }
 
 .textArea {
@@ -18,6 +18,7 @@ body {
   background-color: #383838;
   border: 1ex solid none;
   margin: 1rem 0px 1px 3rem;
+  max-width: 850px;
   padding: 0;
   color: #383838;
   word-wrap: break-word;
@@ -44,6 +45,7 @@ body {
 h1 {
   color: rgb(205, 202, 202);
   margin: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
 footer {
@@ -57,15 +59,17 @@ footer {
 .inputspeed {
   border-radius: 5px;
   height: 1.4rem;
-  width: 3rem;
+  width: 2.8rem;
 }
+
 
 .buttonsStyle {
   --hover-shadows: 16px 16px 33px #121212, -16px -16px 33px #303030;
   --accent: #6b7280 ;
   font-weight: bold;
   letter-spacing: 0.1em;
-  border: none;
+  border: 1px solid white;
+  width:  7rem;
   border-radius: 1.1em;
   background-color: #212121;
   color: white;
@@ -99,6 +103,31 @@ footer {
   height: 60vh;
 }
 
+.Instructions h3{
+    font-size: 33px;
+    color: rgb(205, 202, 202);
+    position: relative;
+    font-weight: bold;
+    top: -1.7rem;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.Instructions{
+    font-size: 22px;
+    padding: 3rem;
+    border: 3px solid rgba(255, 255, 255, 0.72);
+    border-radius: 10px;
+    background-color: #121212b7;
+    color: rgb(224, 224, 224);
+    box-shadow: 0px 0px 11px rgb(116 115 117 / 77%);
+    max-width: 850px;
+    width: 70vw;
+    margin: 1rem;
+    font-family: "Courier New", Courier, monospace;
+    height: fit-content;
+}
+
 /*============================ media Queries ================================*/
 @media (max-width: 923px) {
   #text {
@@ -106,7 +135,28 @@ footer {
     margin: 1rem;
     margin-right: 1rem;
   }
+  .Instructions{
+    margin-top: 3rem; 
+  }
 }
+
+
+@media (max-width: 744px) {
+    .label{
+        margin-left: 9rem;
+    }
+ 
+}
+
+@media (max-width: 535px) {
+    .label{
+        margin-left: 1.7rem;
+    }
+ 
+}
+
+
+
 @media (max-width: 476px) {
   footer {
     display: none;
