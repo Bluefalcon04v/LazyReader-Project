@@ -6,7 +6,7 @@
 body {
   display: flex;
   justify-content: center;
-  /* background-image: url("/images/background image.png"); */
+  background-image: url("/images/backgroundimage.png");
 }
 
 .textArea {
